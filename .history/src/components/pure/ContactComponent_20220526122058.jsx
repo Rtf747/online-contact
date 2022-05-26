@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import { Contact } from '../../models/contact.class';
 
 const ContactComponent = ({ contact }) => {
  return (
@@ -15,7 +14,7 @@ const ContactComponent = ({ contact }) => {
 };
 
 ContactComponent.propTypes = {
- contact: PropTypes.instanceOf(Contact),
+ contact: PropTypes.instanceOf(),
 };
 
 export default ContactComponent;
